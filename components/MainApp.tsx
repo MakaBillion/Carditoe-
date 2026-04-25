@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import { User, Transaction, Store, AppTab } from '../types';
 import Dashboard from './Dashboard';
 import WalletCard from './WalletCard';
-import { Wallet, Home, Bell, Search, ArrowLeft, Settings, Github, Rocket } from 'lucide-react';
+import { Wallet, Home, Bell, Search, ArrowLeft, Settings, Github, Rocket, Sparkles } from 'lucide-react';
 
 const MainApp: React.FC = () => {
   const [activeTab, setActiveTab] = useState<AppTab>(AppTab.DASHBOARD);
@@ -135,31 +135,39 @@ const MainApp: React.FC = () => {
             
             <div className="bg-white dark:bg-slate-800 p-6 rounded-[2rem] border border-slate-100 dark:border-slate-700">
                 <div className="flex items-center space-x-3 mb-4">
-                    <Github className="w-5 h-5 text-slate-900 dark:text-white" />
-                    <h3 className="font-black uppercase text-sm">GitHub Deployment</h3>
+                    <Rocket className="w-5 h-5 text-brand-500" />
+                    <h3 className="font-black uppercase text-sm">Deployment Guides</h3>
                 </div>
-                <div className="space-y-4">
-                    <p className="text-xs text-slate-500 font-bold mb-4">Click the button below to go to GitHub New Repository page after exporting.</p>
-                    <div className="space-y-4">
-                        <div className="flex items-start space-x-3">
-                            <div className="w-6 h-6 bg-slate-100 dark:bg-slate-700 rounded-full flex items-center justify-center text-[10px] font-bold flex-shrink-0">1</div>
-                            <p className="text-xs text-slate-500 font-bold">Go to <span className="text-brand-500">Settings</span> in the top right of AI Studio.</p>
-                        </div>
-                        <div className="flex items-start space-x-3">
-                            <div className="w-6 h-6 bg-slate-100 dark:bg-slate-700 rounded-full flex items-center justify-center text-[10px] font-bold flex-shrink-0">2</div>
-                            <p className="text-xs text-slate-500 font-bold">Click <span className="text-brand-500">Export to GitHub</span>.</p>
-                        </div>
+                <div className="space-y-6">
+                    <div>
+                        <h4 className="text-xs font-black text-slate-900 dark:text-white uppercase mb-2 flex items-center">
+                            <Github className="w-3 h-3 mr-2" /> GitHub Pages
+                        </h4>
+                        <p className="text-xs text-slate-500 font-bold mb-3">1. Export to GitHub via AI Studio Settings.<br/>2. Enable GitHub Actions in repo settings.</p>
+                        <a 
+                            href="https://github.com/new" 
+                            target="_blank" 
+                            rel="noreferrer"
+                            className="w-full py-3 bg-slate-100 dark:bg-slate-700 text-slate-900 dark:text-white rounded-xl font-black text-[10px] uppercase tracking-widest flex items-center justify-center space-x-2"
+                        >
+                            <span>Open GitHub</span>
+                        </a>
                     </div>
-                    
-                    <a 
-                      href="https://github.com/new" 
-                      target="_blank" 
-                      rel="noreferrer"
-                      className="mt-6 w-full py-4 bg-slate-900 text-white rounded-2xl font-black text-xs uppercase tracking-[0.2em] flex items-center justify-center space-x-3 hover:bg-slate-800 transition-all active:scale-95"
-                    >
-                        <Github className="w-5 h-5" />
-                        <span>Open GitHub</span>
-                    </a>
+
+                    <div className="pt-4 border-t border-slate-100 dark:border-slate-700">
+                        <h4 className="text-xs font-black text-slate-900 dark:text-white uppercase mb-2 flex items-center">
+                            <Sparkles className="w-3 h-3 mr-2 text-brand-500" /> Vercel (Recommended)
+                        </h4>
+                        <p className="text-xs text-slate-500 font-bold mb-3">1. Export to GitHub.<br/>2. Import to Vercel for a searchable .vercel.app link.</p>
+                        <a 
+                            href="https://vercel.com/new" 
+                            target="_blank" 
+                            rel="noreferrer"
+                            className="w-full py-3 bg-slate-900 text-white rounded-xl font-black text-[10px] uppercase tracking-widest flex items-center justify-center space-x-2"
+                        >
+                            <span>Deploy to Vercel</span>
+                        </a>
+                    </div>
                 </div>
             </div>
           </div>
@@ -178,8 +186,8 @@ const MainApp: React.FC = () => {
       <header className="fixed top-0 left-0 right-0 z-40 bg-white/80 dark:bg-slate-900/80 backdrop-blur-xl border-b border-slate-100 dark:border-slate-800 h-16 flex items-center justify-between px-4 md:px-6">
           <div className="flex items-center space-x-3">
               <div className="flex items-baseline">
-                <span className="text-xl font-black text-slate-900 dark:text-white uppercase tracking-tighter">Cardit</span>
-                <span className="text-xl font-black text-brand-500 uppercase tracking-tighter">Oe'</span>
+                <span className="text-xl font-black text-slate-900 dark:text-white tracking-tighter">Cardit</span>
+                <span className="text-xl font-black text-brand-500 tracking-tighter">Oe'</span>
               </div>
           </div>
           <div className="flex items-center space-x-3">

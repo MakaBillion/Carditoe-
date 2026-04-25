@@ -14,15 +14,12 @@ const HomePage: React.FC = () => {
                 <div className="w-10 h-10 bg-brand-600 rounded-xl flex items-center justify-center text-white shadow-lg shadow-brand-500/20">
                     <Zap className="w-6 h-6 fill-current" />
                 </div>
-                <span className="text-2xl font-black text-slate-900 dark:text-white tracking-tighter">CarditOe<span className="text-brand-600">’</span></span>
+                <span className="text-2xl font-black text-slate-900 dark:text-white tracking-tighter">CarditOe<span className="text-brand-600">'</span></span>
             </div>
             <div className="flex items-center space-x-6">
                 <a href="#guardian" className="text-sm font-black text-slate-400 uppercase tracking-widest hover:text-slate-900 dark:hover:text-slate-200 transition-colors">
                     Explore
                 </a>
-                <Link to="/app" className="bg-brand-600 text-white px-6 py-3 rounded-full font-black text-sm uppercase tracking-widest shadow-xl shadow-brand-500/20 hover:bg-brand-700 transition-all active:scale-95">
-                    Launch App
-                </Link>
             </div>
         </div>
       </nav>
@@ -79,9 +76,6 @@ const HomePage: React.FC = () => {
             transition={{ delay: 0.3 }}
             className="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-6"
           >
-            <Link to="/app" className="w-full sm:w-auto px-10 py-6 bg-brand-600 text-white rounded-[2rem] font-black text-lg uppercase tracking-widest shadow-2xl shadow-brand-500/30 hover:bg-brand-700 transition-all active:scale-95 flex items-center justify-center">
-                Open App <Sparkles className="ml-3 w-6 h-6" />
-            </Link>
             <a href="#guardian" className="text-sm font-black text-slate-400 uppercase tracking-widest hover:text-slate-900 dark:hover:text-slate-200 transition-colors flex items-center">
                 Explore The Suite <ChevronDown className="ml-2 w-4 h-4" />
             </a>
@@ -122,7 +116,7 @@ const HomePage: React.FC = () => {
                     <Lock className="w-4 h-4 text-brand-600" />
                     <span className="text-[10px] font-black text-brand-600 uppercase tracking-[0.2em]">The Master Key</span>
                 </div>
-                <h2 className="text-4xl md:text-5xl font-black text-slate-900 dark:text-white uppercase tracking-tight leading-tight">
+                <h2 className="text-4xl md:text-5xl font-black text-slate-900 dark:text-white tracking-tight leading-tight">
                     Your Universal <br/><span className="text-brand-600">Loyalty Card</span>
                 </h2>
                 <div className="space-y-6">
@@ -189,7 +183,7 @@ const HomePage: React.FC = () => {
         <div className="absolute inset-0 bg-brand-600/10 mix-blend-overlay"></div>
         <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-center gap-16 relative z-10">
             <div className="flex-1 text-center lg:text-left">
-                <h2 className="text-4xl md:text-5xl font-black text-white uppercase tracking-tight mb-8">
+                <h2 className="text-4xl md:text-5xl font-black text-white tracking-tight mb-8">
                     The miCoinBank™ Engine: <span className="text-brand-400">Adjustable Savings</span>
                 </h2>
                 <p className="text-brand-100/70 text-lg mb-12 leading-relaxed">
@@ -242,7 +236,7 @@ const HomePage: React.FC = () => {
       <section id="guardian" className="py-32 px-6">
         <div className="max-w-7xl mx-auto">
             <div className="text-center mb-20 max-w-2xl mx-auto">
-                <h2 className="text-4xl font-black text-slate-900 dark:text-white uppercase tracking-tight mb-6">The "Loyalty Guardian" Suite</h2>
+                <h2 className="text-4xl font-black text-slate-900 dark:text-white tracking-tight mb-6">The "Loyalty Guardian" Suite</h2>
                 <p className="text-slate-500 dark:text-slate-400 leading-relaxed font-bold">We don't just save your money; we protect your shopping life. Our AI-driven suite ensures you never lose a cent of value.</p>
             </div>
 
@@ -319,7 +313,7 @@ const HomePage: React.FC = () => {
                         <div className="w-8 h-8 bg-brand-600 rounded-lg flex items-center justify-center text-white">
                             <Zap className="w-5 h-5 fill-current" />
                         </div>
-                        <span className="text-xl font-black text-slate-900 dark:text-white tracking-tighter">CarditOe<span className="text-brand-600">’</span></span>
+                        <span className="text-xl font-black text-slate-900 dark:text-white tracking-tighter">CarditOe<span className="text-brand-600">'</span></span>
                     </div>
                     <p className="text-slate-700 dark:text-slate-300 text-xs font-bold leading-relaxed mb-8 italic">
                         "Established in 2024 by Coinly (Pty) Ltd, CarditOe’ is the first company in South Africa to invent a truly Universal Loyalty Card and Program App that digitizes physical change at the point of sale via the miCoinBank™ Engine."

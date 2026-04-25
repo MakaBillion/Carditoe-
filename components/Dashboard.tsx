@@ -26,7 +26,7 @@ const Dashboard: React.FC<DashboardProps> = ({ user, recentTransactions, stores,
                   <Sparkles className="w-4 h-4 text-accent-500" />
                   <p className="text-[10px] font-black text-slate-400 uppercase tracking-[0.2em]">Sharp Shopper</p>
               </div>
-              <h2 className="text-2xl md:text-3xl font-black text-slate-900 dark:text-white uppercase tracking-tight leading-none">Hey, {user.name.split(' ')[0]}!</h2>
+              <h2 className="text-2xl md:text-3xl font-black text-slate-900 dark:text-white tracking-tight leading-none">Hey, {user.name.split(' ')[0]}!</h2>
           </div>
           <div className="text-right">
               <div className="w-12 h-12 bg-brand-500 rounded-2xl flex items-center justify-center text-white text-xl font-black shadow-lg shadow-brand-500/20">
@@ -64,7 +64,7 @@ const Dashboard: React.FC<DashboardProps> = ({ user, recentTransactions, stores,
                         <div className="bg-white/20 p-3 rounded-2xl backdrop-blur-md">
                             <CreditCard className="w-6 h-6" />
                         </div>
-                        <span className="text-xs font-black uppercase tracking-[0.2em] opacity-70">MiCOINBANK</span>
+                        <span className="text-xs font-black uppercase tracking-[0.2em] opacity-70">miCoinBank</span>
                     </div>
                     <button onClick={onToggleBalance} className="p-3 bg-white/10 hover:bg-white/20 rounded-2xl backdrop-blur-md transition-all active:scale-90">
                         {showBalance ? <Eye className="w-5 h-5" /> : <EyeOff className="w-5 h-5" />}

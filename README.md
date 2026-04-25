@@ -1,8 +1,10 @@
-# CarditOe' Deployment Guide
+# CarditOe': South Africa’s 1st Universal Loyalty & Digital Change Engine
 
-This project is set up for easy deployment to **GitHub Pages**.
+This project is set up for easy deployment to **Vercel** or **GitHub Pages**.
 
-## Option 1: Automatic Deployment (Recommended)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fnew)
+
+## Option 1: Automatic Deployment to GitHub Pages (Recommended)
 
 This project includes a GitHub Actions workflow in `.github/workflows/deploy.yml`. 
 
