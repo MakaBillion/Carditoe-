@@ -135,22 +135,31 @@ const MainApp: React.FC = () => {
             
             <div className="bg-white dark:bg-slate-800 p-6 rounded-[2rem] border border-slate-100 dark:border-slate-700">
                 <div className="flex items-center space-x-3 mb-4">
-                    <Rocket className="w-5 h-5 text-brand-500" />
-                    <h3 className="font-black uppercase text-sm">Deployment Assistant</h3>
+                    <Github className="w-5 h-5 text-slate-900 dark:text-white" />
+                    <h3 className="font-black uppercase text-sm">GitHub Deployment</h3>
                 </div>
                 <div className="space-y-4">
-                    <div className="flex items-start space-x-3">
-                        <div className="w-6 h-6 bg-slate-100 dark:bg-slate-700 rounded-full flex items-center justify-center text-[10px] font-bold flex-shrink-0">1</div>
-                        <p className="text-xs text-slate-500 font-bold">Go to <span className="text-brand-500">Settings</span> in the top right of AI Studio.</p>
+                    <p className="text-xs text-slate-500 font-bold mb-4">Click the button below to go to GitHub New Repository page after exporting.</p>
+                    <div className="space-y-4">
+                        <div className="flex items-start space-x-3">
+                            <div className="w-6 h-6 bg-slate-100 dark:bg-slate-700 rounded-full flex items-center justify-center text-[10px] font-bold flex-shrink-0">1</div>
+                            <p className="text-xs text-slate-500 font-bold">Go to <span className="text-brand-500">Settings</span> in the top right of AI Studio.</p>
+                        </div>
+                        <div className="flex items-start space-x-3">
+                            <div className="w-6 h-6 bg-slate-100 dark:bg-slate-700 rounded-full flex items-center justify-center text-[10px] font-bold flex-shrink-0">2</div>
+                            <p className="text-xs text-slate-500 font-bold">Click <span className="text-brand-500">Export to GitHub</span>.</p>
+                        </div>
                     </div>
-                    <div className="flex items-start space-x-3">
-                        <div className="w-6 h-6 bg-slate-100 dark:bg-slate-700 rounded-full flex items-center justify-center text-[10px] font-bold flex-shrink-0">2</div>
-                        <p className="text-xs text-slate-500 font-bold">Click <span className="text-brand-500">Export to GitHub</span>.</p>
-                    </div>
-                    <div className="flex items-start space-x-3">
-                        <div className="w-6 h-6 bg-slate-100 dark:bg-slate-700 rounded-full flex items-center justify-center text-[10px] font-bold flex-shrink-0">3</div>
-                        <p className="text-xs text-slate-500 font-bold">Enable <span className="text-brand-500">GitHub Actions</span> in your repository settings.</p>
-                    </div>
+                    
+                    <a 
+                      href="https://github.com/new" 
+                      target="_blank" 
+                      rel="noreferrer"
+                      className="mt-6 w-full py-4 bg-slate-900 text-white rounded-2xl font-black text-xs uppercase tracking-[0.2em] flex items-center justify-center space-x-3 hover:bg-slate-800 transition-all active:scale-95"
+                    >
+                        <Github className="w-5 h-5" />
+                        <span>Open GitHub</span>
+                    </a>
                 </div>
             </div>
           </div>
