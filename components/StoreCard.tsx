@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { Store } from '../types';
-import { Shield, Smartphone, Zap } from 'lucide-react';
+import { Shield, Smartphone, PlusCircle } from 'lucide-react';
 
 interface StoreCardProps {
   store: Store;
@@ -40,7 +40,7 @@ const StoreCard: React.FC<StoreCardProps> = ({ store, onClick }) => {
             </div>
           ) : (
             <div className="flex items-center space-x-1.5 bg-slate-100 dark:bg-slate-800 px-2 py-1 rounded-lg">
-              <Zap className="w-3 h-3 text-slate-400" />
+              <PlusCircle className="w-3 h-3 text-slate-400" />
               <span className="text-[9px] font-black text-slate-400 uppercase tracking-tighter">Link Now</span>
             </div>
           )}

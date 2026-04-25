@@ -187,7 +187,7 @@ const MainApp: React.FC = () => {
           <div className="flex items-center space-x-3">
               <div className="flex items-baseline">
                 <span className="text-xl font-black text-slate-900 dark:text-white tracking-tighter">Cardit</span>
-                <span className="text-xl font-black text-brand-500 tracking-tighter">Oe'</span>
+                <span className="text-xl font-black text-[#22c55e] tracking-tighter">Oe'</span>
               </div>
           </div>
           <div className="flex items-center space-x-3">

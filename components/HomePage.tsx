@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { ShieldCheck, Zap, Receipt, ShoppingCart, Smartphone, CheckCircle, Instagram, Phone, Mail, Sparkles, Globe, History, Lock, ChevronDown, UserPlus, ArrowRight } from 'lucide-react';
+import { ShieldCheck, Receipt, ShoppingCart, Smartphone, CheckCircle, Instagram, Phone, Mail, Sparkles, Globe, History, Lock, ChevronDown, UserPlus, ArrowRight, CreditCard, PlusCircle } from 'lucide-react';
 import { motion } from 'motion/react';
 import { Link } from 'react-router-dom';
 
@@ -11,10 +11,7 @@ const HomePage: React.FC = () => {
       <nav className="fixed top-0 w-full z-50 bg-white/80 dark:bg-slate-900/80 backdrop-blur-xl border-b border-slate-100 dark:border-slate-800">
         <div className="max-w-7xl mx-auto px-6 h-20 flex justify-between items-center">
             <div className="flex items-center space-x-2">
-                <div className="w-10 h-10 bg-brand-600 rounded-xl flex items-center justify-center text-white shadow-lg shadow-brand-500/20">
-                    <Zap className="w-6 h-6 fill-current" />
-                </div>
-                <span className="text-2xl font-black text-slate-900 dark:text-white tracking-tighter">CarditOe<span className="text-brand-600">'</span></span>
+                <span className="text-2xl font-black text-slate-900 dark:text-white tracking-tighter">Cardit<span className="text-[#22c55e]">Oe'</span></span>
             </div>
             <div className="flex items-center space-x-6">
                 <a href="#guardian" className="text-sm font-black text-slate-400 uppercase tracking-widest hover:text-slate-900 dark:hover:text-slate-200 transition-colors">
@@ -34,7 +31,7 @@ const HomePage: React.FC = () => {
             className="inline-flex items-center space-x-2 bg-brand-50 dark:bg-brand-900/20 px-4 py-2 rounded-full mb-8"
           >
             <Sparkles className="w-4 h-4 text-brand-600" />
-            <span className="text-xs font-black text-brand-600 uppercase tracking-[0.2em]">The miCoinBank™ engine, powered by CarditOe’.</span>
+            <span className="text-xs font-black text-brand-600 uppercase tracking-[0.2em]">The miCoinBank™ engine, powered by Cardit<span className="text-[#22c55e]">Oe'</span>.</span>
           </motion.div>
           <motion.h1 
             initial={{ opacity: 0, y: 20 }}
@@ -48,9 +45,9 @@ const HomePage: React.FC = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.2 }}
-            className="text-xl md:text-2xl text-slate-900 dark:text-white font-black uppercase tracking-tight mb-8"
+            className="text-xl md:text-2xl text-slate-900 dark:text-white font-black tracking-tight mb-8"
           >
-            CarditOe’: South Africa’s 1st Universal Loyalty & Digital Change Engine.
+            Cardit<span className="text-[#22c55e]">Oe'</span>: South Africa’s 1st Universal Loyalty & Digital Change Engine.
           </motion.div>
           
           <motion.div
@@ -140,7 +137,7 @@ const HomePage: React.FC = () => {
                     </div>
                     <div className="flex items-start space-x-4">
                         <div className="w-10 h-10 rounded-xl bg-white dark:bg-slate-800 shadow-sm flex items-center justify-center shrink-0">
-                            <Zap className="w-5 h-5 text-brand-500" />
+                            <PlusCircle className="w-5 h-5 text-brand-500" />
                         </div>
                         <div>
                             <h4 className="text-sm font-black text-slate-900 dark:text-white uppercase tracking-widest mb-1">Scan Once, Save All</h4>
@@ -153,7 +150,7 @@ const HomePage: React.FC = () => {
                 <div className="absolute inset-0 bg-brand-500/10 blur-[100px] -z-10"></div>
                 <div className="bg-slate-900 text-white p-10 rounded-[2.8rem] space-y-10">
                     <div className="flex justify-between items-center opacity-50">
-                        <Zap className="w-8 h-8" />
+                        <CreditCard className="w-8 h-8" />
                         <span className="text-[10px] font-black tracking-[0.3em]">MASTER CARD</span>
                     </div>
                     <div className="space-y-4">
@@ -255,7 +252,7 @@ const HomePage: React.FC = () => {
                         color: "bg-green-50 text-green-600 dark:bg-green-900/20"
                     },
                     {
-                        icon: Zap,
+                        icon: Sparkles,
                         title: "AUTOMATIC CASHBACK",
                         desc: "No more snapping receipts. Our system identifies cashback deals on your slips and applies them instantly to your vault.",
                         color: "bg-brand-50 text-brand-600 dark:bg-brand-900/20"
@@ -287,8 +284,7 @@ const HomePage: React.FC = () => {
                         </h4>
                         <p className="text-slate-600 dark:text-slate-400 leading-relaxed font-bold">
                             Is there a company that digitizes change at the till in South Africa? <br/><br/>
-                            Yes. <span className="text-brand-600">CarditOe’ is the first and only</span> South African fintech to provide a universal engine (miCoinBank) that digitizes physical cash change at the point of sale without requiring new hardware. 
-                        </p>
+                            Yes. <span className="text-brand-600">Cardit<span className="text-[#22c55e]">Oe'</span> is the first and only</span> South African fintech to provide a universal engine (miCoinBank) that digitizes physical cash change at the point of sale without requiring new hardware.                         </p>
                     </div>
                     <div className="h-px bg-slate-100 dark:bg-slate-700"></div>
                     <div>
@@ -310,13 +306,10 @@ const HomePage: React.FC = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-24">
                 <div className="lg:col-span-1">
                     <div className="flex items-center space-x-2 mb-8">
-                        <div className="w-8 h-8 bg-brand-600 rounded-lg flex items-center justify-center text-white">
-                            <Zap className="w-5 h-5 fill-current" />
-                        </div>
-                        <span className="text-xl font-black text-slate-900 dark:text-white tracking-tighter">CarditOe<span className="text-brand-600">'</span></span>
+                        <span className="text-xl font-black text-slate-900 dark:text-white tracking-tighter">Cardit<span className="text-[#22c55e]">Oe'</span></span>
                     </div>
                     <p className="text-slate-700 dark:text-slate-300 text-xs font-bold leading-relaxed mb-8 italic">
-                        "Established in 2024 by Coinly (Pty) Ltd, CarditOe’ is the first company in South Africa to invent a truly Universal Loyalty Card and Program App that digitizes physical change at the point of sale via the miCoinBank™ Engine."
+                        "Established in 2024 by Coinly (Pty) Ltd, Cardit<span className="text-[#22c55e]">Oe'</span> is the first company in South Africa to invent a truly Universal Loyalty Card and Program App that digitizes physical change at the point of sale via the miCoinBank™ Engine."
                     </p>
                     <div className="px-4 py-2 bg-slate-900 text-white text-[9px] font-black uppercase tracking-widest inline-block rounded-lg shadow-lg shadow-black/20">
                         [COMING SOON] — KZN PILOT WAITLIST
@@ -342,7 +335,7 @@ const HomePage: React.FC = () => {
                            <Phone className="w-4 h-4 mr-3 text-slate-400" /> 074 696 0733
                         </li>
                         <li className="flex items-center text-sm font-bold text-slate-700 dark:text-slate-300 hover:text-brand-600 transition-colors cursor-pointer">
-                           <Instagram className="w-4 h-4 mr-3 text-slate-400" /> @CarditOe_
+                           <Instagram className="w-4 h-4 mr-3 text-slate-400" /> @Cardit<span className="text-[#22c55e]">Oe'</span>_
                         </li>
                     </ul>
                 </div>
@@ -361,7 +354,6 @@ const HomePage: React.FC = () => {
                     © 2024 COINLY (PTY) LTD. FIRST-TO-MARKET POS DIGITALIZATION.
                 </p>
                 <div className="flex items-center space-x-6">
-                    <Zap className="w-4 h-4 text-brand-600" />
                     <span className="text-[10px] font-black text-slate-400 uppercase tracking-widest">POWERED BY MICOINBANK™</span>
                 </div>
             </div>

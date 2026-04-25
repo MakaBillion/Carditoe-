@@ -31,7 +31,7 @@ const WalletCard: React.FC<WalletCardProps> = ({ user }) => {
                   <div className="flex flex-col">
                       <div className="flex items-center space-x-2 mb-1">
                           <ShieldCheck className="w-4 h-4 text-brand-400" />
-                          <span className="text-[10px] font-black tracking-[0.25em] text-white/50 uppercase">Secured by CarditOe'</span>
+                          <span className="text-[10px] font-black tracking-[0.25em] text-white/50 uppercase">Secured by Cardit<span className="text-[#22c55e]">Oe'</span></span>
                       </div>
                       <h2 className="text-2xl font-black text-white italic tracking-tighter uppercase leading-none">Universal</h2>
                   </div>
