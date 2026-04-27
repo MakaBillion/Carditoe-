@@ -331,11 +331,13 @@ const HomePage: React.FC = () => {
                 <div>
                     <h5 className="text-[10px] font-black text-slate-400 uppercase tracking-widest mb-8">Contact the Pioneers</h5>
                     <ul className="space-y-4">
-                        <li className="flex items-center text-sm font-bold text-slate-700 dark:text-slate-300 hover:text-brand-600 transition-colors cursor-pointer">
-                           <Phone className="w-4 h-4 mr-3 text-slate-400" /> 074 696 0733
+                        <li className="flex items-center text-sm font-bold text-slate-700 dark:text-slate-300 hover:text-brand-600 transition-colors">
+                           <Phone className="w-4 h-4 mr-3 text-slate-400" /> 
+                           <a href="tel:0746960733" className="hover:underline">074 696 0733</a>
                         </li>
-                        <li className="flex items-center text-sm font-bold text-slate-700 dark:text-slate-300 hover:text-brand-600 transition-colors cursor-pointer">
-                           <Instagram className="w-4 h-4 mr-3 text-slate-400" /> @Cardit<span className="text-[#22c55e]">Oe'</span>_
+                        <li className="flex items-center text-sm font-bold text-slate-700 dark:text-slate-300 hover:text-brand-600 transition-colors">
+                           <Instagram className="w-4 h-4 mr-3 text-slate-400" /> 
+                           <a href="https://instagram.com/CarditOe_" target="_blank" rel="noopener noreferrer" className="hover:underline">@Cardit<span className="text-[#22c55e]">Oe'</span>_</a>
                         </li>
                     </ul>
                 </div>
