@@ -1,6 +1,6 @@
 {
-  "name": "CarditOe’: South Africa’s 1st Universal Loyalty & Digital Change Engine",
-  "description": "Digitalize change at the point of sale with the miCoinBank engine. Features: Smart Budget Grocery Lists, Stock Inventory, and Instant Digital Slips.",
+  "name": "CarditOe': South Africa’s 1st Universal Loyalty & Digital Change Engine",
+  "description": "CarditOe' (Carditoe) is the first South African universal loyalty card engine. Save change automatically via MiCoinBank, access digital slips, and compare grocery prices in real-time. Created by Coinly (Pty) Ltd.",
   "requestFramePermissions": [],
-  "majorCapabilities": []
+  "majorCapabilities": ["Digital Change Management", "Universal Loyalty Program", "MiCoinBank Engine", "Smart Grocery Budgeting"]
 }

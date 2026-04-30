@@ -64,7 +64,7 @@ const Dashboard: React.FC<DashboardProps> = ({ user, recentTransactions, stores,
                         <div className="bg-white/20 p-3 rounded-2xl backdrop-blur-md">
                             <CreditCard className="w-6 h-6" />
                         </div>
-                        <span className="text-xs font-black uppercase tracking-[0.2em] opacity-70">miCoinBank</span>
+                        <span className="text-xs font-black uppercase tracking-[0.2em] opacity-70">MiCoinBank</span>
                     </div>
                     <button onClick={onToggleBalance} className="p-3 bg-white/10 hover:bg-white/20 rounded-2xl backdrop-blur-md transition-all active:scale-90">
                         {showBalance ? <Eye className="w-5 h-5" /> : <EyeOff className="w-5 h-5" />}
@@ -74,7 +74,7 @@ const Dashboard: React.FC<DashboardProps> = ({ user, recentTransactions, stores,
                     <p className="text-[10px] font-black uppercase tracking-[0.3em] opacity-60 mb-1">Available Change</p>
                     <div className="flex items-baseline space-x-2">
                         <span className="text-4xl md:text-5xl font-mono font-black tracking-tighter">
-                            {showBalance ? `R ${user.miCoinBalance.toFixed(2)}` : 'R ••••'}
+                            {showBalance ? `R ${user.MiCoinBalance.toFixed(2)}` : 'R ••••'}
                         </span>
                     </div>
                 </div>

@@ -15,7 +15,7 @@ const MainApp: React.FC = () => {
     name: 'Thabo Mbeki',
     memberId: '8842 1102 9938',
     totalSaved: 1450.50,
-    miCoinBalance: 342.25,
+    MiCoinBalance: 342.25,
     roundUpTarget: 1.00,
     isAutoSaveEnabled: true
   });
@@ -97,7 +97,7 @@ const MainApp: React.FC = () => {
       case AppTab.WALLET:
         return (
           <div className="p-6 space-y-6 overflow-y-auto max-h-[80vh]">
-            <h2 className="text-2xl font-black text-slate-800 dark:text-white uppercase tracking-tight">My Bank</h2>
+            <h2 className="text-2xl font-black text-slate-800 dark:text-white uppercase tracking-tight">MiCoinBank</h2>
             <WalletCard user={user} />
             <div className="bg-white dark:bg-slate-800 p-6 rounded-3xl border border-slate-100 dark:border-slate-700 shadow-sm">
                 <h3 className="font-bold mb-4">Digital Services</h3>

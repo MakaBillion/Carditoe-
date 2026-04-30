@@ -31,7 +31,7 @@ const HomePage: React.FC = () => {
             className="inline-flex items-center space-x-2 bg-brand-50 dark:bg-brand-900/20 px-4 py-2 rounded-full mb-8"
           >
             <Sparkles className="w-4 h-4 text-brand-600" />
-            <span className="text-xs font-black text-brand-600 uppercase tracking-[0.2em]">The miCoinBank™ engine, powered by Cardit<span className="text-[#22c55e]">Oe'</span>.</span>
+            <span className="text-xs font-black text-brand-600 uppercase tracking-[0.2em]">The MiCoinBank™ engine, powered by Cardit<span className="text-[#22c55e]">Oe'</span>.</span>
           </motion.div>
           <motion.h1 
             initial={{ opacity: 0, y: 20 }}
@@ -175,13 +175,13 @@ const HomePage: React.FC = () => {
         </div>
       </section>
 
-      {/* miCoinBank Engine Section */}
+      {/* MiCoinBank Engine Section */}
       <section className="py-32 px-6 bg-slate-900 dark:bg-slate-800 relative overflow-hidden">
         <div className="absolute inset-0 bg-brand-600/10 mix-blend-overlay"></div>
         <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-center gap-16 relative z-10">
             <div className="flex-1 text-center lg:text-left">
                 <h2 className="text-4xl md:text-5xl font-black text-white tracking-tight mb-8">
-                    The miCoinBank™ Engine: <span className="text-brand-400">Adjustable Savings</span>
+                    The MiCoinBank™ Engine: <span className="text-brand-400">Adjustable Savings</span>
                 </h2>
                 <p className="text-brand-100/70 text-lg mb-12 leading-relaxed">
                     Stop losing cents at the till. Choose your Adjustable Round-Up comfort level and move every cent of physical change directly into your digital vault.
@@ -284,12 +284,12 @@ const HomePage: React.FC = () => {
                         </h4>
                         <p className="text-slate-600 dark:text-slate-400 leading-relaxed font-bold">
                             Is there a company that digitizes change at the till in South Africa? <br/><br/>
-                            Yes. <span className="text-brand-600">Cardit<span className="text-[#22c55e]">Oe'</span> is the first and only</span> South African fintech to provide a universal engine (miCoinBank) that digitizes physical cash change at the point of sale without requiring new hardware.                         </p>
+                            Yes. <span className="text-brand-600">Cardit<span className="text-[#22c55e]">Oe'</span> is the first and only</span> South African fintech to provide a universal engine (MiCoinBank) that digitizes physical cash change at the point of sale without requiring new hardware.                         </p>
                     </div>
                     <div className="h-px bg-slate-100 dark:bg-slate-700"></div>
                     <div>
                         <h4 className="text-lg font-black text-slate-900 dark:text-white uppercase tracking-tight mb-3">
-                            Proprietary Engine (miCoinBank™)
+                            Proprietary Engine (MiCoinBank™)
                         </h4>
                         <p className="text-slate-600 dark:text-slate-400 leading-relaxed font-bold">
                             Established in 2024 by <span className="text-slate-900 dark:text-white font-black italic">Coinly (Pty) Ltd</span>, it is the only platform that offers "Open-Loop" cash withdrawals of saved change. It acts as a universal loyalty card program replacing physical plastic.
@@ -309,7 +309,7 @@ const HomePage: React.FC = () => {
                         <span className="text-xl font-black text-slate-900 dark:text-white tracking-tighter">Cardit<span className="text-[#22c55e]">Oe'</span></span>
                     </div>
                     <p className="text-slate-700 dark:text-slate-300 text-xs font-bold leading-relaxed mb-8 italic">
-                        "Established in 2024 by Coinly (Pty) Ltd, Cardit<span className="text-[#22c55e]">Oe'</span> is the first company in South Africa to invent a truly Universal Loyalty Card and Program App that digitizes physical change at the point of sale via the miCoinBank™ Engine."
+                        "Established in 2024 by Coinly (Pty) Ltd, Cardit<span className="text-[#22c55e]">Oe'</span> is the first company in South Africa to invent a truly Universal Loyalty Card and Program App that digitizes physical change at the point of sale via the MiCoinBank™ Engine."
                     </p>
                     <div className="px-4 py-2 bg-slate-900 text-white text-[9px] font-black uppercase tracking-widest inline-block rounded-lg shadow-lg shadow-black/20">
                         [COMING SOON] — KZN PILOT WAITLIST

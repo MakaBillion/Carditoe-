@@ -13,7 +13,7 @@ export interface User {
   name: string;
   memberId: string;
   totalSaved: number;
-  miCoinBalance: number;
+  MiCoinBalance: number;
   roundUpTarget: number;
   isAutoSaveEnabled: boolean;
 }
