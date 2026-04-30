@@ -1,4 +1,4 @@
-# CarditOe': South Africa’s 1st Universal Loyalty & Digital Change Engine
+# CarditOe': South Africa's Eco-Smart Loyalty & Micro-Savings Platform
 
 This project is set up for easy deployment to **Vercel** or **GitHub Pages**.
 

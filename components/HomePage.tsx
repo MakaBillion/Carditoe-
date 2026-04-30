@@ -45,10 +45,18 @@ const HomePage: React.FC = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.2 }}
-            className="text-xl md:text-2xl text-slate-900 dark:text-white font-black tracking-tight mb-8"
+            className="text-xl md:text-2xl text-slate-900 dark:text-white font-black tracking-tight mb-4"
           >
-            Cardit<span className="text-[#22c55e]">Oe'</span>: South Africa’s 1st Universal Loyalty & Digital Change Engine.
+            Cardit<span className="text-[#22c55e]">Oe'</span> is South Africa’s first eco-smart loyalty and micro-savings platform.
           </motion.div>
+          <motion.p
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.25 }}
+            className="text-sm md:text-base text-brand-600 dark:text-brand-400 font-bold uppercase tracking-[0.2em] mb-12"
+          >
+            "Digitizing your change through one universal loyalty app. Your cents, your miCoinBank, your future."
+          </motion.p>
           
           <motion.div
             initial={{ opacity: 0, scale: 0.9 }}
@@ -183,9 +191,23 @@ const HomePage: React.FC = () => {
                 <h2 className="text-4xl md:text-5xl font-black text-white tracking-tight mb-8">
                     The MiCoinBank™ Engine: <span className="text-brand-400">Adjustable Savings</span>
                 </h2>
-                <p className="text-brand-100/70 text-lg mb-12 leading-relaxed">
-                    Stop losing cents at the till. Choose your Adjustable Round-Up comfort level and move every cent of physical change directly into your digital vault.
-                </p>
+                <div className="text-brand-100/70 text-lg mb-12 leading-relaxed space-y-6">
+                    <p>Stop losing cents at the till. Choose your Adjustable Round-Up comfort level and move every cent of physical change directly into your digital vault.</p>
+                    <div className="grid grid-cols-1 gap-4 mt-6">
+                        <div className="flex items-start space-x-3">
+                            <CheckCircle className="w-5 h-5 text-brand-400 shrink-0 mt-1" />
+                            <p className="text-sm font-bold"><span className="text-white font-black">Catch Your Change:</span> No more heavy coins or "we don't have 50c" excuses at the till.</p>
+                        </div>
+                        <div className="flex items-start space-x-3">
+                            <CheckCircle className="w-5 h-5 text-brand-400 shrink-0 mt-1" />
+                            <p className="text-sm font-bold"><span className="text-white font-black">Adjustable Logic:</span> Choose your round-up rule (R1, R2, R5, or R10) or simply save all your physical change.</p>
+                        </div>
+                        <div className="flex items-start space-x-3">
+                            <CheckCircle className="w-5 h-5 text-brand-400 shrink-0 mt-1" />
+                            <p className="text-sm font-bold"><span className="text-white font-black">Instant Liquidity:</span> Your money, your rules. Withdraw via cashback at any partner store once you hit your R20 minimum.</p>
+                        </div>
+                    </div>
+                </div>
                 <div className="grid grid-cols-2 gap-4">
                     {['R1 Round-Up', 'R2 Round-Up', 'R5 Round-Up', 'R10 Round-Up'].map(t => (
                         <div key={t} className="bg-white/10 backdrop-blur-md border border-white/10 px-6 py-4 rounded-2xl text-white font-black uppercase text-xs tracking-widest flex items-center">
@@ -292,7 +314,7 @@ const HomePage: React.FC = () => {
                             Proprietary Engine (MiCoinBank™)
                         </h4>
                         <p className="text-slate-600 dark:text-slate-400 leading-relaxed font-bold">
-                            Established in 2024 by <span className="text-slate-900 dark:text-white font-black italic">Coinly (Pty) Ltd</span>, it is the only platform that offers "Open-Loop" cash withdrawals of saved change. It acts as a universal loyalty card program replacing physical plastic.
+                            By combining universal loyalty technology with a seamless mobile app, CarditOe’ digitizes physical change at the till, transforming every transaction into a powerful MiCoinBank savings engine.
                         </p>
                     </div>
                 </div>
@@ -309,7 +331,7 @@ const HomePage: React.FC = () => {
                         <span className="text-xl font-black text-slate-900 dark:text-white tracking-tighter">Cardit<span className="text-[#22c55e]">Oe'</span></span>
                     </div>
                     <p className="text-slate-700 dark:text-slate-300 text-xs font-bold leading-relaxed mb-8 italic">
-                        "Established in 2024 by Coinly (Pty) Ltd, Cardit<span className="text-[#22c55e]">Oe'</span> is the first company in South Africa to invent a truly Universal Loyalty Card and Program App that digitizes physical change at the point of sale via the MiCoinBank™ Engine."
+                        "CarditOe’ is South Africa’s first eco-smart loyalty and micro-savings platform. We digitize your physical change at the till and turn it into a powerful savings engine through our universal loyalty app and card."
                     </p>
                     <div className="px-4 py-2 bg-slate-900 text-white text-[9px] font-black uppercase tracking-widest inline-block rounded-lg shadow-lg shadow-black/20">
                         [COMING SOON] — KZN PILOT WAITLIST
